@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/ppdraga/golang_level_1/lesson-2/calc/calcpack"
+	_ "github.com/valyala/fasthttp"
 )
 
 func main() {
