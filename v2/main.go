@@ -24,6 +24,7 @@ func main() {
 	checkError(err)
 
 	fmt.Println(a, op, b, "=", calcpack.Calc(a, b, op))
+	fmt.Println("v2")
 }
 
 func checkError(err error) {
